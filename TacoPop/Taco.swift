@@ -8,9 +8,9 @@
 
 import Foundation
 
-enum TacoShell: Int {
-    case Flour = 1
-    case Corn = 2
+enum TacoShell: String {
+    case Flour = "Flour"
+    case Corn = "Corn"
 }
 
 enum TacoProtein: String {
@@ -20,9 +20,9 @@ enum TacoProtein: String {
     case Fish = "Fish"
 }
 
-enum TacoCondiment: Int {
-    case Loaded = 1
-    case Plain = 2
+enum TacoCondiment: String {
+    case Loaded = "Loaded"
+    case Plain = "Plain"
 }
 
 struct Taco {

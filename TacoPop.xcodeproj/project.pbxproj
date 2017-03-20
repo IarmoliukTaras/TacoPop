@@ -26,6 +26,7 @@
 		9D842A371E7E9C1200E1A5CA /* MutableCollection+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D842A361E7E9C1200E1A5CA /* MutableCollection+Ext.swift */; };
 		9D842A3B1E7EA4BA00E1A5CA /* Shakeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D842A3A1E7EA4BA00E1A5CA /* Shakeable.swift */; };
 		9D842A3D1E7EEF8300E1A5CA /* CSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D842A3C1E7EEF8300E1A5CA /* CSV.swift */; };
+		9DF1F4DE1E7F2C2B00169462 /* TacoDetailVS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF1F4DD1E7F2C2B00169462 /* TacoDetailVS.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		9D842A361E7E9C1200E1A5CA /* MutableCollection+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MutableCollection+Ext.swift"; sourceTree = "<group>"; };
 		9D842A3A1E7EA4BA00E1A5CA /* Shakeable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shakeable.swift; sourceTree = "<group>"; };
 		9D842A3C1E7EEF8300E1A5CA /* CSV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSV.swift; sourceTree = "<group>"; };
+		9DF1F4DD1E7F2C2B00169462 /* TacoDetailVS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TacoDetailVS.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 			children = (
 				9D8429F81E7DD80000E1A5CA /* AppDelegate.swift */,
 				9D842A1E1E7DD8E300E1A5CA /* MainVC.swift */,
+				9DF1F4DD1E7F2C2B00169462 /* TacoDetailVS.swift */,
 			);
 			name = Controller;
 			path = ..;
@@ -301,6 +304,7 @@
 				9D842A311E7E90C300E1A5CA /* ReusableView.swift in Sources */,
 				9D842A1F1E7DD8E300E1A5CA /* MainVC.swift in Sources */,
 				9D842A271E7E86AC00E1A5CA /* DataService.swift in Sources */,
+				9DF1F4DE1E7F2C2B00169462 /* TacoDetailVS.swift in Sources */,
 				9D842A251E7DDF8300E1A5CA /* Taco.swift in Sources */,
 				9D842A3B1E7EA4BA00E1A5CA /* Shakeable.swift in Sources */,
 				9D842A231E7DDD2F00E1A5CA /* HeaderView.swift in Sources */,
@@ -513,6 +517,7 @@
 				9D842A141E7DD80000E1A5CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9D842A151E7DD80000E1A5CA /* Build configuration list for PBXNativeTarget "TacoPopTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +526,7 @@
 				9D842A171E7DD80000E1A5CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

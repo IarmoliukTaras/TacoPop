@@ -42,6 +42,16 @@ class MainVC: UIViewController, DataServiceDelegate {
         print("Delicious Taco Data Loaded!")
         collectionView.reloadData()
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "TacoDetailVS" {
+            if let detailVS = segue.destination as? TacoDetailVS {
+                if let taco = sender as? Taco {
+                    detailVS.taco = taco 
+                }
+            }
+        }
+    }
 
 }
 
@@ -72,6 +82,10 @@ extension MainVC: UICollectionViewDelegate, UICollectionViewDataSource, UICollec
         if let cell = collectionView.cellForItem(at: indexPath) as? TacoCell {
             cell.shake()
         }
+        
+        let taco = ds.tacoArray[indexPath.row]
+        
+        performSegue(withIdentifier: "TacoDetailVS", sender: taco)
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
